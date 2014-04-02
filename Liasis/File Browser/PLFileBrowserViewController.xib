@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PLFileBrowserViewController">
+            <connections>
+                <outlet property="directoryPopUpButton" destination="AOR-ff-pIY" id="tyC-KO-Jnc"/>
+                <outlet property="outlineView" destination="46" id="55"/>
+                <outlet property="scrollView" destination="45" id="56"/>
+                <outlet property="treeController" destination="E2A-N1-eCQ" id="Jbm-c3-1re"/>
+                <outlet property="view" destination="40" id="57"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <view id="40" customClass="PLFileBrowserMainView">
+            <rect key="frame" x="0.0" y="0.0" width="276" height="378"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="20" horizontalPageScroll="10" verticalLineScroll="20" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45">
+                    <rect key="frame" x="0.0" y="0.0" width="276" height="357"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <clipView key="contentView" id="Vfc-PD-EeD">
+                        <rect key="frame" x="0.0" y="0.0" width="276" height="357"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <outlineView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" multipleSelection="NO" autosaveColumns="NO" rowHeight="20" indentationPerLevel="14" outlineTableColumn="50" id="46" customClass="PLFileBrowserOutlineView">
+                                <rect key="frame" x="0.0" y="0.0" width="276" height="357"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <size key="intercellSpacing" width="3" height="0.0"/>
+                                <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                <tableColumns>
+                                    <tableColumn width="273" minWidth="16" maxWidth="1000" id="50">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" white="0.33333298560000002" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableHeaderCell>
+                                        <textFieldCell key="dataCell" lineBreakMode="truncatingTail" alignment="left" title="Text Cell" id="51">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                        <connections>
+                                            <binding destination="E2A-N1-eCQ" name="value" keyPath="arrangedObjects.representedObject" id="M5m-i6-12P">
+                                                <dictionary key="options">
+                                                    <bool key="NSConditionallySetsEditable" value="NO"/>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </tableColumn>
+                                </tableColumns>
+                                <connections>
+                                    <outlet property="delegate" destination="-2" id="53"/>
+                                </connections>
+                            </outlineView>
+                        </subviews>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="47">
+                        <rect key="frame" x="1" y="-15" width="0.0" height="16"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="49">
+                        <rect key="frame" x="-15" y="1" width="16" height="0.0"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                </scrollView>
+                <popUpButton translatesAutoresizingMaskIntoConstraints="NO" id="AOR-ff-pIY">
+                    <rect key="frame" x="0.0" y="357" width="276" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <popUpButtonCell key="cell" type="bevel" bezelStyle="regularSquare" imagePosition="left" alignment="left" lineBreakMode="truncatingTail" inset="2" pullsDown="YES" id="zow-oP-0b7">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="menu"/>
+                        <menu key="menu" title="OtherViews" id="y0U-fG-HCv"/>
+                    </popUpButtonCell>
+                </popUpButton>
+                <box autoresizesSubviews="NO" verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="mPy-Bb-IJU">
+                    <rect key="frame" x="0.0" y="355" width="276" height="4"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+            </subviews>
+            <constraints>
+                <constraint firstItem="AOR-ff-pIY" firstAttribute="top" secondItem="40" secondAttribute="top" id="1ht-0v-7Zm"/>
+                <constraint firstItem="AOR-ff-pIY" firstAttribute="leading" secondItem="40" secondAttribute="leading" id="39S-kk-KY1"/>
+                <constraint firstItem="mPy-Bb-IJU" firstAttribute="trailing" secondItem="AOR-ff-pIY" secondAttribute="trailing" id="HME-sP-eex"/>
+                <constraint firstItem="mPy-Bb-IJU" firstAttribute="leading" secondItem="AOR-ff-pIY" secondAttribute="leading" id="J4N-8s-2zL"/>
+                <constraint firstAttribute="trailing" secondItem="AOR-ff-pIY" secondAttribute="trailing" id="Kax-7E-Dtr"/>
+                <constraint firstAttribute="trailing" secondItem="45" secondAttribute="trailing" id="KfX-tS-QIc"/>
+                <constraint firstItem="mPy-Bb-IJU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="40" secondAttribute="top" constant="21" id="TwO-T9-dzU"/>
+                <constraint firstItem="45" firstAttribute="top" secondItem="mPy-Bb-IJU" secondAttribute="bottom" id="e3D-KV-wiN"/>
+                <constraint firstItem="mPy-Bb-IJU" firstAttribute="bottom" secondItem="AOR-ff-pIY" secondAttribute="bottom" id="ikb-OW-RW5"/>
+                <constraint firstItem="45" firstAttribute="leading" secondItem="40" secondAttribute="leading" id="qAZ-OS-xZR"/>
+                <constraint firstItem="mPy-Bb-IJU" firstAttribute="top" secondItem="45" secondAttribute="top" id="uMy-Jv-gkv"/>
+                <constraint firstAttribute="bottom" secondItem="45" secondAttribute="bottom" id="vLS-uA-uyk"/>
+            </constraints>
+            <connections>
+                <outlet property="controller" destination="-2" id="64"/>
+            </connections>
+        </view>
+        <treeController childrenKeyPath="childNodes" leafKeyPath="isLeaf" avoidsEmptySelection="NO" id="E2A-N1-eCQ"/>
+    </objects>
+</document>

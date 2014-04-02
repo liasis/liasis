@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Solarized (light)</string>
+	<key>Settings</key>
+	<dict>
+		<key>background</key>
+		<string>#FDF6E3</string>
+		<key>foreground</key>
+		<string>#586E75</string>
+		<key>invisibles</key>
+		<string>#EAE3C9</string>
+		<key>lineHighlight</key>
+		<string>#EEE8D5</string>
+		<key>selection</key>
+		<string>#073642</string>
+	</dict>
+	<key>Comment</key>
+	<dict>
+		<key>style</key>
+		<string>italic</string>
+		<key>foreground</key>
+		<string>#93A1A1</string>
+	</dict>
+	<key>String</key>
+	<dict>
+		<key>foreground</key>
+		<string>#2AA198</string>
+	</dict>
+	<key>Docstring</key>
+	<dict>
+		<key>foreground</key>
+		<string>#2AA198</string>
+	</dict>
+	<key>Regexp</key>
+	<dict>
+		<key>foreground</key>
+		<string>#D30102</string>
+	</dict>
+	<key>Number</key>
+	<dict>
+		<key>foreground</key>
+		<string>#D33682</string>
+	</dict>
+	<key>Variable</key>
+	<dict>
+		<key>foreground</key>
+		<string>#268BD2</string>
+	</dict>
+	<key>Keyword</key>
+	<dict>
+		<key>foreground</key>
+		<string>#859900</string>
+	</dict>
+	<key>Class name</key>
+	<dict>
+		<key>foreground</key>
+		<string>#268BD2</string>
+	</dict>
+	<key>Function name</key>
+	<dict>
+		<key>foreground</key>
+		<string>#268BD2</string>
+	</dict>
+	<key>Built-in constant</key>
+	<dict>
+		<key>foreground</key>
+		<string>#B58900</string>
+	</dict>
+	<key>User-defined constant</key>
+	<dict>
+		<key>foreground</key>
+		<string>#CB4B16</string>
+	</dict>
+	<key>Library function</key>
+	<dict>
+		<key>foreground</key>
+		<string>#268BD2</string>
+	</dict>
+	<key>Continuation</key>
+	<dict>
+		<key>foreground</key>
+		<string>#D30102</string>
+	</dict>
+	<key>Library class/type</key>
+	<dict>
+		<key>foreground</key>
+		<string>#859900</string>
+	</dict>
+	<key>Library Exception</key>
+	<dict>
+		<key>foreground</key>
+		<string>#CB4B16</string>
+	</dict>
+	<key>Special</key>
+	<dict>
+		<key>foreground</key>
+		<string>#CB4B16</string>
+	</dict>
+	<key>Quoted String</key>
+	<dict>
+		<key>foreground</key>
+		<string>#269186</string>
+	</dict>
+	<key>Quotes</key>
+	<dict>
+		<key>foreground</key>
+		<string>#C60000</string>
+	</dict>
+	<key>Import</key>
+	<dict>
+		<key>foreground</key>
+		<string>#BD3800</string>
+	</dict>
+	<key>Exception</key>
+	<dict>
+		<key>foreground</key>
+		<string>#A57800</string>
+	</dict>
+	<key>uuid</key>
+	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>
+	<key>license</key>
+	<string>
+	Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+	</string>
+</dict>
+</plist>

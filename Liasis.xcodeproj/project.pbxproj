@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300A62C218B59CC500A6A25D /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300A62C118B59CC500A6A25D /* Python.framework */; };
+		300A62C418B59CD000A6A25D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300A62C318B59CD000A6A25D /* QuartzCore.framework */; };
+		3049A2A218B577DB00DCD53D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3049A2A118B577DB00DCD53D /* Cocoa.framework */; };
+		3049A2AC18B577DB00DCD53D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2AA18B577DB00DCD53D /* InfoPlist.strings */; };
+		3049A2AE18B577DB00DCD53D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2AD18B577DB00DCD53D /* main.m */; };
+		3049A2B818B577DB00DCD53D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2B618B577DB00DCD53D /* MainMenu.xib */; };
+		3049A2BA18B577DB00DCD53D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2B918B577DB00DCD53D /* Images.xcassets */; };
+		3049A2C118B577DB00DCD53D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3049A2C018B577DB00DCD53D /* XCTest.framework */; };
+		3049A2C218B577DB00DCD53D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3049A2A118B577DB00DCD53D /* Cocoa.framework */; };
+		3049A2CA18B577DB00DCD53D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2C818B577DB00DCD53D /* InfoPlist.strings */; };
+		3049A2CC18B577DB00DCD53D /* LiasisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2CB18B577DB00DCD53D /* LiasisTests.m */; };
+		3049A2D718B5792500DCD53D /* LiasisAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2D618B5792500DCD53D /* LiasisAppDelegate.m */; };
+		3049A2FB18B5799500DCD53D /* PLCreditWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2DA18B5799500DCD53D /* PLCreditWindowController.m */; };
+		3049A2FC18B5799500DCD53D /* PLCreditWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2DB18B5799500DCD53D /* PLCreditWindowController.xib */; };
+		3049A2FD18B5799500DCD53D /* PLFileBrowserImageAndTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2DE18B5799500DCD53D /* PLFileBrowserImageAndTextCell.m */; };
+		3049A2FE18B5799500DCD53D /* PLFileBrowserItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2E018B5799500DCD53D /* PLFileBrowserItem.m */; };
+		3049A2FF18B5799500DCD53D /* PLFileBrowserMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2E218B5799500DCD53D /* PLFileBrowserMainView.m */; };
+		3049A30018B5799500DCD53D /* PLFileBrowserOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2E418B5799500DCD53D /* PLFileBrowserOutlineView.m */; };
+		3049A30118B5799500DCD53D /* PLFileBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2E618B5799500DCD53D /* PLFileBrowserViewController.m */; };
+		3049A30218B5799500DCD53D /* PLFileBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2E718B5799500DCD53D /* PLFileBrowserViewController.xib */; };
+		3049A30318B5799500DCD53D /* PLSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2EA18B5799500DCD53D /* PLSplitViewController.m */; };
+		3049A30418B5799500DCD53D /* PLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2ED18B5799500DCD53D /* PLTabBar.m */; };
+		3049A30518B5799500DCD53D /* PLTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2EF18B5799500DCD53D /* PLTabBarView.m */; };
+		3049A30618B5799500DCD53D /* PLTabSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2F118B5799500DCD53D /* PLTabSubview.m */; };
+		3049A30718B5799500DCD53D /* PLTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2F318B5799500DCD53D /* PLTabViewController.m */; };
+		3049A30818B5799500DCD53D /* PLTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2F418B5799500DCD53D /* PLTabViewController.xib */; };
+		3049A30918B5799500DCD53D /* PLWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2F718B5799500DCD53D /* PLWindow.m */; };
+		3049A30A18B5799500DCD53D /* PLWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3049A2F918B5799500DCD53D /* PLWindowController.m */; };
+		3049A30B18B5799500DCD53D /* PLWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3049A2FA18B5799500DCD53D /* PLWindowController.xib */; };
+		30A8140518B91378001CD3FF /* LiasisKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 30BCEB1918B9020200D53E4F /* LiasisKit.framework */; };
+		30BCEB1A18B9020200D53E4F /* LiasisKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BCEB1918B9020200D53E4F /* LiasisKit.framework */; };
+		30E4970A18B6814900781EC0 /* Solarized (Dark).plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E4970818B6814900781EC0 /* Solarized (Dark).plist */; };
+		30E4970B18B6814900781EC0 /* Solarized (Light).plist in Resources */ = {isa = PBXBuildFile; fileRef = 30E4970918B6814900781EC0 /* Solarized (Light).plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3049A2C318B577DB00DCD53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3049A29618B577DB00DCD53D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3049A29D18B577DB00DCD53D;
+			remoteInfo = Liasis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		300E568818B9041700781AD5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				30A8140518B91378001CD3FF /* LiasisKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		300A62C118B59CC500A6A25D /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = System/Library/Frameworks/Python.framework; sourceTree = SDKROOT; };
+		300A62C318B59CD000A6A25D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3049A29E18B577DB00DCD53D /* Liasis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Liasis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049A2A118B577DB00DCD53D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3049A2A418B577DB00DCD53D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3049A2A518B577DB00DCD53D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3049A2A618B577DB00DCD53D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3049A2A918B577DB00DCD53D /* Liasis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Liasis-Info.plist"; sourceTree = "<group>"; };
+		3049A2AB18B577DB00DCD53D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3049A2AD18B577DB00DCD53D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3049A2AF18B577DB00DCD53D /* Liasis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Liasis-Prefix.pch"; sourceTree = "<group>"; };
+		3049A2B718B577DB00DCD53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3049A2B918B577DB00DCD53D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3049A2BF18B577DB00DCD53D /* LiasisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiasisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3049A2C018B577DB00DCD53D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3049A2C718B577DB00DCD53D /* LiasisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LiasisTests-Info.plist"; sourceTree = "<group>"; };
+		3049A2C918B577DB00DCD53D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3049A2CB18B577DB00DCD53D /* LiasisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiasisTests.m; sourceTree = "<group>"; };
+		3049A2D518B5792500DCD53D /* LiasisAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiasisAppDelegate.h; sourceTree = "<group>"; };
+		3049A2D618B5792500DCD53D /* LiasisAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiasisAppDelegate.m; sourceTree = "<group>"; };
+		3049A2D918B5799500DCD53D /* PLCreditWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCreditWindowController.h; sourceTree = "<group>"; };
+		3049A2DA18B5799500DCD53D /* PLCreditWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLCreditWindowController.m; sourceTree = "<group>"; };
+		3049A2DB18B5799500DCD53D /* PLCreditWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLCreditWindowController.xib; sourceTree = "<group>"; };
+		3049A2DD18B5799500DCD53D /* PLFileBrowserImageAndTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFileBrowserImageAndTextCell.h; sourceTree = "<group>"; };
+		3049A2DE18B5799500DCD53D /* PLFileBrowserImageAndTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFileBrowserImageAndTextCell.m; sourceTree = "<group>"; };
+		3049A2DF18B5799500DCD53D /* PLFileBrowserItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFileBrowserItem.h; sourceTree = "<group>"; };
+		3049A2E018B5799500DCD53D /* PLFileBrowserItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFileBrowserItem.m; sourceTree = "<group>"; };
+		3049A2E118B5799500DCD53D /* PLFileBrowserMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFileBrowserMainView.h; sourceTree = "<group>"; };
+		3049A2E218B5799500DCD53D /* PLFileBrowserMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFileBrowserMainView.m; sourceTree = "<group>"; };
+		3049A2E318B5799500DCD53D /* PLFileBrowserOutlineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFileBrowserOutlineView.h; sourceTree = "<group>"; };
+		3049A2E418B5799500DCD53D /* PLFileBrowserOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFileBrowserOutlineView.m; sourceTree = "<group>"; };
+		3049A2E518B5799500DCD53D /* PLFileBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFileBrowserViewController.h; sourceTree = "<group>"; };
+		3049A2E618B5799500DCD53D /* PLFileBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFileBrowserViewController.m; sourceTree = "<group>"; };
+		3049A2E718B5799500DCD53D /* PLFileBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLFileBrowserViewController.xib; sourceTree = "<group>"; };
+		3049A2E918B5799500DCD53D /* PLSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLSplitViewController.h; sourceTree = "<group>"; };
+		3049A2EA18B5799500DCD53D /* PLSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLSplitViewController.m; sourceTree = "<group>"; };
+		3049A2EC18B5799500DCD53D /* PLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTabBar.h; sourceTree = "<group>"; };
+		3049A2ED18B5799500DCD53D /* PLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTabBar.m; sourceTree = "<group>"; };
+		3049A2EE18B5799500DCD53D /* PLTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTabBarView.h; sourceTree = "<group>"; };
+		3049A2EF18B5799500DCD53D /* PLTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTabBarView.m; sourceTree = "<group>"; };
+		3049A2F018B5799500DCD53D /* PLTabSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTabSubview.h; sourceTree = "<group>"; };
+		3049A2F118B5799500DCD53D /* PLTabSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTabSubview.m; sourceTree = "<group>"; };
+		3049A2F218B5799500DCD53D /* PLTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTabViewController.h; sourceTree = "<group>"; };
+		3049A2F318B5799500DCD53D /* PLTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTabViewController.m; sourceTree = "<group>"; };
+		3049A2F418B5799500DCD53D /* PLTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLTabViewController.xib; sourceTree = "<group>"; };
+		3049A2F618B5799500DCD53D /* PLWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLWindow.h; sourceTree = "<group>"; };
+		3049A2F718B5799500DCD53D /* PLWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLWindow.m; sourceTree = "<group>"; };
+		3049A2F818B5799500DCD53D /* PLWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLWindowController.h; sourceTree = "<group>"; };
+		3049A2F918B5799500DCD53D /* PLWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLWindowController.m; sourceTree = "<group>"; };
+		3049A2FA18B5799500DCD53D /* PLWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLWindowController.xib; sourceTree = "<group>"; };
+		30BCEB1918B9020200D53E4F /* LiasisKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiasisKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30E4970818B6814900781EC0 /* Solarized (Dark).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Solarized (Dark).plist"; sourceTree = "<group>"; };
+		30E4970918B6814900781EC0 /* Solarized (Light).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Solarized (Light).plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3049A29B18B577DB00DCD53D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300A62C418B59CD000A6A25D /* QuartzCore.framework in Frameworks */,
+				300A62C218B59CC500A6A25D /* Python.framework in Frameworks */,
+				3049A2A218B577DB00DCD53D /* Cocoa.framework in Frameworks */,
+				30BCEB1A18B9020200D53E4F /* LiasisKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049A2BC18B577DB00DCD53D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049A2C218B577DB00DCD53D /* Cocoa.framework in Frameworks */,
+				3049A2C118B577DB00DCD53D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3049A29518B577DB00DCD53D = {
+			isa = PBXGroup;
+			children = (
+				3049A2A718B577DB00DCD53D /* Liasis */,
+				3049A2C518B577DB00DCD53D /* LiasisTests */,
+				3049A2A018B577DB00DCD53D /* Frameworks */,
+				3049A29F18B577DB00DCD53D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3049A29F18B577DB00DCD53D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3049A29E18B577DB00DCD53D /* Liasis.app */,
+				3049A2BF18B577DB00DCD53D /* LiasisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3049A2A018B577DB00DCD53D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30BCEB1918B9020200D53E4F /* LiasisKit.framework */,
+				300A62C318B59CD000A6A25D /* QuartzCore.framework */,
+				300A62C118B59CC500A6A25D /* Python.framework */,
+				3049A2A118B577DB00DCD53D /* Cocoa.framework */,
+				3049A2C018B577DB00DCD53D /* XCTest.framework */,
+				3049A2A318B577DB00DCD53D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3049A2A318B577DB00DCD53D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2A418B577DB00DCD53D /* AppKit.framework */,
+				3049A2A518B577DB00DCD53D /* CoreData.framework */,
+				3049A2A618B577DB00DCD53D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3049A2A718B577DB00DCD53D /* Liasis */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2D818B5799500DCD53D /* Credits */,
+				3049A2DC18B5799500DCD53D /* File Browser */,
+				3049A2E818B5799500DCD53D /* Split View */,
+				3049A2EB18B5799500DCD53D /* Tab View */,
+				3049A2F518B5799500DCD53D /* Window Controller */,
+				3049A2D518B5792500DCD53D /* LiasisAppDelegate.h */,
+				3049A2D618B5792500DCD53D /* LiasisAppDelegate.m */,
+				3049A2B618B577DB00DCD53D /* MainMenu.xib */,
+				3049A2B918B577DB00DCD53D /* Images.xcassets */,
+				30E4970718B6814900781EC0 /* Themes */,
+				3049A2A818B577DB00DCD53D /* Supporting Files */,
+			);
+			path = Liasis;
+			sourceTree = "<group>";
+		};
+		3049A2A818B577DB00DCD53D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2A918B577DB00DCD53D /* Liasis-Info.plist */,
+				3049A2AA18B577DB00DCD53D /* InfoPlist.strings */,
+				3049A2AD18B577DB00DCD53D /* main.m */,
+				3049A2AF18B577DB00DCD53D /* Liasis-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3049A2C518B577DB00DCD53D /* LiasisTests */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2CB18B577DB00DCD53D /* LiasisTests.m */,
+				3049A2C618B577DB00DCD53D /* Supporting Files */,
+			);
+			path = LiasisTests;
+			sourceTree = "<group>";
+		};
+		3049A2C618B577DB00DCD53D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2C718B577DB00DCD53D /* LiasisTests-Info.plist */,
+				3049A2C818B577DB00DCD53D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3049A2D818B5799500DCD53D /* Credits */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2D918B5799500DCD53D /* PLCreditWindowController.h */,
+				3049A2DA18B5799500DCD53D /* PLCreditWindowController.m */,
+				3049A2DB18B5799500DCD53D /* PLCreditWindowController.xib */,
+			);
+			path = Credits;
+			sourceTree = "<group>";
+		};
+		3049A2DC18B5799500DCD53D /* File Browser */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2DD18B5799500DCD53D /* PLFileBrowserImageAndTextCell.h */,
+				3049A2DE18B5799500DCD53D /* PLFileBrowserImageAndTextCell.m */,
+				3049A2DF18B5799500DCD53D /* PLFileBrowserItem.h */,
+				3049A2E018B5799500DCD53D /* PLFileBrowserItem.m */,
+				3049A2E118B5799500DCD53D /* PLFileBrowserMainView.h */,
+				3049A2E218B5799500DCD53D /* PLFileBrowserMainView.m */,
+				3049A2E318B5799500DCD53D /* PLFileBrowserOutlineView.h */,
+				3049A2E418B5799500DCD53D /* PLFileBrowserOutlineView.m */,
+				3049A2E518B5799500DCD53D /* PLFileBrowserViewController.h */,
+				3049A2E618B5799500DCD53D /* PLFileBrowserViewController.m */,
+				3049A2E718B5799500DCD53D /* PLFileBrowserViewController.xib */,
+			);
+			path = "File Browser";
+			sourceTree = "<group>";
+		};
+		3049A2E818B5799500DCD53D /* Split View */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2E918B5799500DCD53D /* PLSplitViewController.h */,
+				3049A2EA18B5799500DCD53D /* PLSplitViewController.m */,
+			);
+			path = "Split View";
+			sourceTree = "<group>";
+		};
+		3049A2EB18B5799500DCD53D /* Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2EC18B5799500DCD53D /* PLTabBar.h */,
+				3049A2ED18B5799500DCD53D /* PLTabBar.m */,
+				3049A2EE18B5799500DCD53D /* PLTabBarView.h */,
+				3049A2EF18B5799500DCD53D /* PLTabBarView.m */,
+				3049A2F018B5799500DCD53D /* PLTabSubview.h */,
+				3049A2F118B5799500DCD53D /* PLTabSubview.m */,
+				3049A2F218B5799500DCD53D /* PLTabViewController.h */,
+				3049A2F318B5799500DCD53D /* PLTabViewController.m */,
+				3049A2F418B5799500DCD53D /* PLTabViewController.xib */,
+			);
+			path = "Tab View";
+			sourceTree = "<group>";
+		};
+		3049A2F518B5799500DCD53D /* Window Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3049A2F618B5799500DCD53D /* PLWindow.h */,
+				3049A2F718B5799500DCD53D /* PLWindow.m */,
+				3049A2F818B5799500DCD53D /* PLWindowController.h */,
+				3049A2F918B5799500DCD53D /* PLWindowController.m */,
+				3049A2FA18B5799500DCD53D /* PLWindowController.xib */,
+			);
+			path = "Window Controller";
+			sourceTree = "<group>";
+		};
+		30E4970718B6814900781EC0 /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				30E4970818B6814900781EC0 /* Solarized (Dark).plist */,
+				30E4970918B6814900781EC0 /* Solarized (Light).plist */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3049A29D18B577DB00DCD53D /* Liasis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3049A2CF18B577DB00DCD53D /* Build configuration list for PBXNativeTarget "Liasis" */;
+			buildPhases = (
+				3049A29A18B577DB00DCD53D /* Sources */,
+				3049A29B18B577DB00DCD53D /* Frameworks */,
+				3049A29C18B577DB00DCD53D /* Resources */,
+				300E568818B9041700781AD5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Liasis;
+			productName = Liasis;
+			productReference = 3049A29E18B577DB00DCD53D /* Liasis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3049A2BE18B577DB00DCD53D /* LiasisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3049A2D218B577DB00DCD53D /* Build configuration list for PBXNativeTarget "LiasisTests" */;
+			buildPhases = (
+				3049A2BB18B577DB00DCD53D /* Sources */,
+				3049A2BC18B577DB00DCD53D /* Frameworks */,
+				3049A2BD18B577DB00DCD53D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3049A2C418B577DB00DCD53D /* PBXTargetDependency */,
+			);
+			name = LiasisTests;
+			productName = LiasisTests;
+			productReference = 3049A2BF18B577DB00DCD53D /* LiasisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3049A29618B577DB00DCD53D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Liasis;
+				TargetAttributes = {
+					3049A2BE18B577DB00DCD53D = {
+						TestTargetID = 3049A29D18B577DB00DCD53D;
+					};
+				};
+			};
+			buildConfigurationList = 3049A29918B577DB00DCD53D /* Build configuration list for PBXProject "Liasis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3049A29518B577DB00DCD53D;
+			productRefGroup = 3049A29F18B577DB00DCD53D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3049A29D18B577DB00DCD53D /* Liasis */,
+				3049A2BE18B577DB00DCD53D /* LiasisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3049A29C18B577DB00DCD53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E4970A18B6814900781EC0 /* Solarized (Dark).plist in Resources */,
+				3049A30B18B5799500DCD53D /* PLWindowController.xib in Resources */,
+				3049A2FC18B5799500DCD53D /* PLCreditWindowController.xib in Resources */,
+				30E4970B18B6814900781EC0 /* Solarized (Light).plist in Resources */,
+				3049A2AC18B577DB00DCD53D /* InfoPlist.strings in Resources */,
+				3049A30818B5799500DCD53D /* PLTabViewController.xib in Resources */,
+				3049A2BA18B577DB00DCD53D /* Images.xcassets in Resources */,
+				3049A2B818B577DB00DCD53D /* MainMenu.xib in Resources */,
+				3049A30218B5799500DCD53D /* PLFileBrowserViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049A2BD18B577DB00DCD53D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049A2CA18B577DB00DCD53D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3049A29A18B577DB00DCD53D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049A2D718B5792500DCD53D /* LiasisAppDelegate.m in Sources */,
+				3049A30A18B5799500DCD53D /* PLWindowController.m in Sources */,
+				3049A30618B5799500DCD53D /* PLTabSubview.m in Sources */,
+				3049A2FD18B5799500DCD53D /* PLFileBrowserImageAndTextCell.m in Sources */,
+				3049A30018B5799500DCD53D /* PLFileBrowserOutlineView.m in Sources */,
+				3049A30718B5799500DCD53D /* PLTabViewController.m in Sources */,
+				3049A2AE18B577DB00DCD53D /* main.m in Sources */,
+				3049A2FB18B5799500DCD53D /* PLCreditWindowController.m in Sources */,
+				3049A2FF18B5799500DCD53D /* PLFileBrowserMainView.m in Sources */,
+				3049A2FE18B5799500DCD53D /* PLFileBrowserItem.m in Sources */,
+				3049A30518B5799500DCD53D /* PLTabBarView.m in Sources */,
+				3049A30318B5799500DCD53D /* PLSplitViewController.m in Sources */,
+				3049A30918B5799500DCD53D /* PLWindow.m in Sources */,
+				3049A30118B5799500DCD53D /* PLFileBrowserViewController.m in Sources */,
+				3049A30418B5799500DCD53D /* PLTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3049A2BB18B577DB00DCD53D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3049A2CC18B577DB00DCD53D /* LiasisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3049A2C418B577DB00DCD53D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3049A29D18B577DB00DCD53D /* Liasis */;
+			targetProxy = 3049A2C318B577DB00DCD53D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3049A2AA18B577DB00DCD53D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3049A2AB18B577DB00DCD53D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3049A2B618B577DB00DCD53D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3049A2B718B577DB00DCD53D /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3049A2C818B577DB00DCD53D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3049A2C918B577DB00DCD53D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3049A2CD18B577DB00DCD53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.8;
+			};
+			name = Debug;
+		};
+		3049A2CE18B577DB00DCD53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx10.8;
+			};
+			name = Release;
+		};
+		3049A2D018B577DB00DCD53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Liasis-gmvlilcbfxgysudsmqayhtqlgreh/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liasis/Liasis-Prefix.pch";
+				INFOPLIST_FILE = "Liasis/Liasis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3049A2D118B577DB00DCD53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Liasis-gmvlilcbfxgysudsmqayhtqlgreh/Build/Products/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liasis/Liasis-Prefix.pch";
+				INFOPLIST_FILE = "Liasis/Liasis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3049A2D318B577DB00DCD53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Liasis.app/Contents/MacOS/Liasis";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liasis/Liasis-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LiasisTests/LiasisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3049A2D418B577DB00DCD53D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Liasis.app/Contents/MacOS/Liasis";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Liasis/Liasis-Prefix.pch";
+				INFOPLIST_FILE = "LiasisTests/LiasisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3049A29918B577DB00DCD53D /* Build configuration list for PBXProject "Liasis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049A2CD18B577DB00DCD53D /* Debug */,
+				3049A2CE18B577DB00DCD53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3049A2CF18B577DB00DCD53D /* Build configuration list for PBXNativeTarget "Liasis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049A2D018B577DB00DCD53D /* Debug */,
+				3049A2D118B577DB00DCD53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3049A2D218B577DB00DCD53D /* Build configuration list for PBXNativeTarget "LiasisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3049A2D318B577DB00DCD53D /* Debug */,
+				3049A2D418B577DB00DCD53D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3049A29618B577DB00DCD53D /* Project object */;
+}
